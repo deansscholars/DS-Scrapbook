@@ -1,0 +1,9 @@
+- links:
+  - name: Facebook
+    link: https://www.facebook.com/utdeansscholars/
+    new_window: true
+    social_icon: Facebook
+  - name: Instagram
+    link: https://www.instagram.com/deansscholars/
+    social_icon: Instagram
+    new_window: true
