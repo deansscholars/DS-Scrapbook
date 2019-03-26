@@ -10,7 +10,7 @@
 	.title {
 		max-width: 33%;
 		@media only screen and (orientation:portrait) and (max-width:480px) {
-			max-width: 100%
+			max-width: 85%
 		}
 	}
 }
@@ -181,13 +181,12 @@ blockquote:before {
 }
 
 .row {
-	display: flex;
+	@media screen and (min-width:720px) {
+		display: flex;
+	}
 }
 
 .column {
-	flex: 33.33%;
-	@media only screen and (orientation:portrait) and (max-width:480px) {
-		flex: 100%;
-	}
+	flex: 33%;
 	padding: 5px;
 }
