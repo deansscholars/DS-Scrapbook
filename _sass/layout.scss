@@ -184,6 +184,9 @@ blockquote:before {
 	@media screen and (min-width:720px) {
 		display: flex;
 	}
+	@media screen and (orientation:landscape) {
+		display: flex;
+	}
 }
 
 .column {
