@@ -5,11 +5,11 @@
 }
 
 .text-container {
-	max-width: 750px;
+	max-width: 1000px;
 }
 
 .container {
-	max-width: 1140px;
+	max-width: 1000px;
 
 	&.max-container {
 		max-width: 100%;
@@ -171,4 +171,13 @@ blockquote:before {
 		}
 	}
 
+}
+
+.row {
+	display: flex;
+}
+
+.column {
+	flex: 33.33%;
+	padding: 5px;
 }
