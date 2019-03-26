@@ -79,6 +79,14 @@ footer {
 		text-align: center;
 
 	}
+
+	text {
+		font-size: 100%;
+		text-align: center;
+		@media screen and (orientation:portrait) {
+			text-align: left;
+		}
+	}
 	
 	&,
 	a {
