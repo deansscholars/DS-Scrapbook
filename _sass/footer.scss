@@ -77,13 +77,12 @@ footer {
 		font-size: .8em;
 		margin: 0 auto;
 		text-align: center;
-
 	}
 
-	text {
+	.centerthis {
 		font-size: 100%;
 		text-align: center;
-		@media screen and (orientation:portrait) {
+		@media only screen and (orientation:portrait) and (max-width:480px) {
 			text-align: left;
 		}
 	}

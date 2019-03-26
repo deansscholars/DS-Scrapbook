@@ -6,6 +6,13 @@
 
 .text-container {
 	max-width: 1000px;
+	
+	.title {
+		max-width: 33%;
+		@media only screen and (orientation:portrait) and (max-width:480px) {
+			max-width: 100%
+		}
+	}
 }
 
 .container {
@@ -179,5 +186,8 @@ blockquote:before {
 
 .column {
 	flex: 33.33%;
+	@media only screen and (orientation:portrait) and (max-width:480px) {
+		flex: 100%;
+	}
 	padding: 5px;
 }
