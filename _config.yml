@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Scrapbook
+title: Dean's Scholars Scrapbook
 url: "dsscrapbook.org"
 baseurl:
 #google_analytics_key:
@@ -10,7 +10,7 @@ baseurl:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: siteicon.jpg
-description: #Scrapbook
+description: #
 author:
   name:
   email: utdsscrapbook@gmail.com
