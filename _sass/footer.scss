@@ -113,6 +113,7 @@ footer {
 		text-decoration: none;
 
 		&:hover {
+			text-decoration: underline;
 			color: #fff;
 			-webkit-tap-highlight-color: rgba(0,0,0,0.1);/*transparent;*/
 		}
