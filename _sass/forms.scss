@@ -12,6 +12,7 @@
 	border: 1px solid #fff;
 	background: $secondary-brand-color;
 	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
 }
 
 .button.alt a {
@@ -24,6 +25,7 @@
 .button.alt a:hover {
 	background: $secondary-brand-color;//#fff;
 	color: $brand-color;
+	-webkit-tap-highlight-color: transparent;
 }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }

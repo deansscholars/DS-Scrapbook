@@ -57,12 +57,13 @@ nav {
 
 			&:hover {
 				border: 0;
+				-webkit-tap-highlight-color: transparent;
 			}
 		}
 	}
 
 	a:hover {
-
+		-webkit-tap-highlight-color: transparent;
 		border-bottom: 1px solid rgba(255,255,255,.3);
 		color: #fff;
 	}
@@ -74,6 +75,7 @@ nav {
 			&:hover {
 				background: #fff;
 				color: $brand-color;
+				-webkit-tap-highlight-color: transparent;
 			}
 		}
 	}
