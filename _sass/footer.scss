@@ -8,6 +8,10 @@
 		flex: 1 0 180px;
 	}
 
+	@media only screen and (max-width:480px) {
+        font-size: 0.9em;
+    }
+
 	li {
 		list-style: none;
 		margin: 15px auto;
@@ -85,6 +89,7 @@ footer {
 		text-align: center;
 		@media only screen and (orientation:portrait) and (max-width:480px) {
 			text-align: left;
+			font-size: 0.9em;
 		}
 	}
 	
